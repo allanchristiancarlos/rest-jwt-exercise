@@ -6,13 +6,13 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceRoot}/RestJwt.Api/bin/Debug/netcoreapp1.1/RestJwt.Api.dll",
+            "program": "${workspaceRoot}/Bikero.Api/bin/Debug/netcoreapp1.1/Bikero.Api.dll",
             "args": [],
-            "cwd": "${workspaceRoot}/RestJwt.Api/",
+            "cwd": "${workspaceRoot}/Bikero.Api/",
             "stopAtEntry": false,
             "launchBrowser": {
                 "enabled": true,
-                "args": "${auto-detect-url}/api/Values",
+                "args": "${auto-detect-url}/api/bikes",
                 "windows": {
                     "command": "cmd.exe",
                     "args": "/C start ${auto-detect-url}"
@@ -28,7 +28,7 @@
                 "ASPNETCORE_ENVIRONMENT": "Development"
             },
             "sourceFileMap": {
-                "/Views": "${workspaceRoot}/RestJwt.Api/Views"
+                "/Views": "${workspaceRoot}/Bikero.Api/Views"
             }
         },
         {

@@ -15,7 +15,7 @@
         },
         {
             "taskName": "test",
-            "args": [ "${workspaceRoot}/RestJwt.Api.Tests/RestJwt.Api.Tests.csproj" ],
+            "args": [ "${workspaceRoot}/Bikero.Api.Tests/Bikero.Api.Tests.csproj" ],
             "isTestCommand": true,
             "showOutput": "always",
             "problemMatcher": "$msCompile"
