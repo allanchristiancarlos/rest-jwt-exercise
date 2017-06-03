@@ -1,13 +1,17 @@
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
+using RestJwt.Api.Controllers;
+using Xunit;
 
 namespace RestJwt.Api.Tests
 {
-    [TestClass]
     public class UnitTest1
     {
-        [TestMethod]
-        public void TestMethod1()
+        [Fact]
+        public void test_should_be_equal_to_1()
         {
+            AccountsController controller = new AccountsController();
+
+            Assert.Equal(1, controller.GetOne());
         }
     }
 }
